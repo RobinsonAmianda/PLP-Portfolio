@@ -529,5 +529,27 @@
         </div>
         <!-- <img decoding="async" src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" /> -->
       </section>
+      <section class="contact-section">
+        <div class="contact-container">
+          <h2>Contact Me</h2>
+          <p>If you have any questions, feel free to get in touch!</p>
+          <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="hidden" name="access_key" value="b6c0c5c3-cb92-43ae-a19d-75217be35c3b">
+              <input type="text" id="name" name="name" required />
+              <label for="name">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" required />
+              <label for="email">Your Email</label>
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </section>
 </body>
 </html>
